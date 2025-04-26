@@ -59,7 +59,8 @@ function App() {
 
         <div class="titulo-Cardapio">
           <a><h1>LANCHE+</h1></a>
-          <img src="/public/images/burguer.png" alt="Logo da Lanchonete" className="logo-img" />
+          <img src="/images/burguer.png" alt="Logo da Lanchonete" className="logo-img" />
+
         </div>
 
 
