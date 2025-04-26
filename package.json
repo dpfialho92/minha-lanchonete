@@ -2,7 +2,7 @@
   "name": "minha-lanchonete",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dpfialho92.github.io/lanche.mais",
+  "homepage": "https://dpfialho92.github.io/minha-lanchonete",
   "type": "module",
   "scripts": {
     "dev": "vite",
