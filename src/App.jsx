@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 import Menu from "./components/menu";
+import logoBurger from "./assets/burguer.png";
 
 function App() {
   const [pedido, setPedido] = useState({});
@@ -59,7 +60,10 @@ function App() {
 
         <div class="titulo-Cardapio">
           <a><h1>LANCHE+</h1></a>
-          <img src="/images/burguer.png" alt="Logo da Lanchonete" className="logo-img" />
+          <img src={logoBurguer} alt="Logo da Lanchonete" className="logo-img" />
+
+
+          
 
         </div>
 
