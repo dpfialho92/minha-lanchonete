@@ -1,14 +1,14 @@
 import React from "react";
 
 const itens = [
-    {nome: "Cachorro Quente", preco: 7.0, imagem: "/public/images/hotdog.png"},
+    {nome: "Cachorro Quente", preco: 7.0, imagem: "/public/images/cachorroQuente.png"},
     {nome: "Bauru Simples", preco: 10.3, imagem: "/public/images/bauru.png"}, 
-    {nome: "Bauru com ovo", preco: 15.0, imagem: "/public/images/bauruovo.png"},
-    {nome: "Hamburguer", preco: 7.0, imagem: "/public/images/hamburger.png"},
+    {nome: "Bauru com ovo", preco: 15.0, imagem: "/public/images/bauruComOvo.png"},
+    {nome: "Hamburguer", preco: 7.0, imagem: "/public/images/hamburguer.png"},
     {nome: "Cheeseburguer", preco: 10.0, imagem: "/public/images/cheeseburger.png"},
     {nome: "X-Tudo", preco: 13.0, imagem: "/public/images/xtudo.png"},
-    {nome: "Porção de Fritas", preco: 10.0, imagem: "/public/images/fritas.png"},
-    {nome: "Refrigerante", preco: 5.0, imagem: "/public/images/refri.png"},
+    {nome: "Porção de Fritas", preco: 10.0, imagem: "/public/images/batatafrita.png"},
+    {nome: "Refrigerante", preco: 5.0, imagem: "/public/images/refrigerante.png"},
     
 ];
 

@@ -109,7 +109,7 @@ body {
     grid-template-columns: repeat(1,3fr); /* Responsivo */
     gap: 10px; /* Espaçamento entre os itens do cardápio */
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Transparência */
+    background-color: rgba(253, 231, 198, 0.5); /* Transparência */
     border-radius: 8px;
     font-family: "Autour One", system-ui;
     color: rgb(7, 7, 7);
@@ -141,7 +141,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5px ; /* Diminuir o espaçamento entre os itens */
+    margin: 5px 0; /* Diminuir o espaçamento entre os itens */
     width: 100%;
 }
 
@@ -152,19 +152,16 @@ body {
     align-items: center;
 }
 
-.menu-item input {
+.item-info input {
     width: 60px;
     border-radius: 10px; /* Bordas arredondadas */
     padding: 5px;
     font-size: 14px;
-    background-color: white;   /* fundo branco */
-    color: black;
-   
 }
 
-.menu-img {
-    width: 90px;
-    height: 70px;
+.menu-item-img {
+    width: 60px;
+    height: 60px;
     object-fit: cover;
     border-radius: 5px;
     margin-left: 10px;
@@ -174,14 +171,14 @@ body {
 button {
     background-color: #e2f10a;
     color: rgb(12, 12, 12);
-    padding: 6px 12px;
+    padding: 10px 20px;
     border: none;
     font-family: "Autour One", system-ui;
     font-weight: 400;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin: 5px; /* Diminuir espaço entre o botão e os itens */
+    margin-top: 10px; /* Diminuir espaço entre o botão e os itens */
 }
 
 button:hover {
@@ -191,10 +188,10 @@ button:hover {
 
 /* Resumo do pedido */
 .order-summary {
-    background-color: rgba(255, 255, 255, 0.8);; /* Transparência */
-    padding: 30px;
+    background-color: rgba(234, 241, 230, 0.8); /* Transparência */
+    padding: 20px;
     margin-top: 10px;
-    border: 2px solid #0f0f0f;
+    border: 2px solid #c1d7c4;
     border-radius: 8px;
     font-family: "Autour One", system-ui;
     font-weight: 400;
@@ -204,7 +201,6 @@ button:hover {
     margin-bottom: 10px; /* Diminuir o espaço entre o resumo e o footer */
     margin-left: auto;
     margin-right: auto; /* Garantir que fique centralizado */
-    color: black;
 }
 
 /* Alinha o resumo do pedido com o tamanho da div do cardápio */
